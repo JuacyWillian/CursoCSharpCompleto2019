@@ -17,7 +17,7 @@ namespace Exercicio113
             double x = double.Parse(vet[0]);
             double y = double.Parse(vet[1]);
 
-            if (x == 0 && y = 0)
+            if (x == 0 && y == 0)
             {
                 Console.WriteLine("Origem");
             }
