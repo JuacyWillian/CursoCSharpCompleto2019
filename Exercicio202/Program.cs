@@ -26,5 +26,7 @@ namespace Exercicio202
 
             Console.WriteLine("Salário médio: " + salMed.ToString("F2", CultureInfo.InvariantCulture));
         }
+
+
     }
 }
