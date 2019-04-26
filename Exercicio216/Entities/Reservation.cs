@@ -32,10 +32,10 @@ namespace Exercicio216.Entities
         {
             DateTime now = DateTime.Now;
             if (checkin < now || checkout < now)
-                throw new DomainException("Reservation dates for update must be future dates");
+                throw new DomainException("Reservation dates for update must be future dates.");
 
             if (checkout < checkin)
-                throw new DomainException("Check-out date must be after check-in date");
+                throw new DomainException("Check-out date must be after check-in date.");
 
             CheckIn = checkin;
             CheckOut = checkout;
